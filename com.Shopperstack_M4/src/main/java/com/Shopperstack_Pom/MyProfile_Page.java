@@ -14,7 +14,7 @@ public class MyProfile_Page
 	
 	
 	@FindBy(xpath = "//div[text()='My Addresses']" )
-	private WebElement myAddressesBtn;       //genrate getter method for this myAddressesBtn
+	private WebElement myAddressesBtn;   //genrate getter method for this myAddressesBtn
 
 
 	public WebElement getMyAddressesBtn()
