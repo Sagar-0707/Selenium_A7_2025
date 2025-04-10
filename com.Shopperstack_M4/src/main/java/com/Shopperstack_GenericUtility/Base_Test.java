@@ -64,11 +64,13 @@ public class Base_Test
     {
         System.out.println("BeforeClass");
         
-        String browser = fileUtility.readDataFromPropertyFile("browserName");
-        String url = fileUtility.readDataFromPropertyFile("url");
+//        String browser = fileUtility.readDataFromPropertyFile("browserName");     
+//        String url = fileUtility.readDataFromPropertyFile("url");
         
-//       String browser= System.getProperty("browserName");
-//       String  url= System.getProperty("url");
+        //for parameter
+         
+       String browser= System.getProperty("browserName");
+       String  url= System.getProperty("url");
         
 
         if (browser.contains("chrome")) 
