@@ -40,6 +40,9 @@ public class Base_Test
 	
 	public Webdriver_Utility webDriverUtility=new Webdriver_Utility();
 	
+	
+	
+	
     @BeforeSuite
     public void beforeSuite()
     {
@@ -99,9 +102,9 @@ public class Base_Test
 
         welcomepage = new Welcome_page(driver);
         
-        wait = new WebDriverWait(driver, Duration.ofSeconds(20));
+        wait = new WebDriverWait(driver, Duration.ofSeconds(14));
         wait.until(ExpectedConditions.elementToBeClickable(welcomepage.getLoginBtn()));
-        Thread.sleep(5000);
+        Thread.sleep(3000);
 
         welcomepage.getLoginBtn().click();
         
@@ -137,6 +140,7 @@ public class Base_Test
     public void afterTest()
     {
         System.out.println("AfterTest");
+        
         reports.flush();
     }
 }

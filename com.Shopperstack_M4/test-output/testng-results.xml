@@ -2,30 +2,30 @@
 <testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-06T14:17:44 IST" name="Default suite" finished-at="2025-04-06T14:18:53 IST" duration-ms="68158">
+  <suite started-at="2025-04-10T09:39:14 IST" name="Default suite" finished-at="2025-04-10T09:40:01 IST" duration-ms="46778">
     <groups>
     </groups>
-    <test started-at="2025-04-06T14:17:44 IST" name="Default test" finished-at="2025-04-06T14:18:53 IST" duration-ms="68158">
+    <test started-at="2025-04-10T09:39:14 IST" name="Default test" finished-at="2025-04-10T09:40:01 IST" duration-ms="46778">
       <class name="com.Shoppersstack_TestScripts.TC_001_verify_user_is_able_to_add_address_or_not_Test">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.Shoppersstack_TestScripts.TC_001_verify_user_is_able_to_add_address_or_not_Test@1190200a]" started-at="2025-04-06T14:17:44 IST" name="beforeSuite" finished-at="2025-04-06T14:17:44 IST" duration-ms="27" status="PASS">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.Shoppersstack_TestScripts.TC_001_verify_user_is_able_to_add_address_or_not_Test@1190200a]" started-at="2025-04-10T09:39:14 IST" name="beforeSuite" finished-at="2025-04-10T09:39:14 IST" duration-ms="22" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.Shoppersstack_TestScripts.TC_001_verify_user_is_able_to_add_address_or_not_Test@1190200a]" started-at="2025-04-06T14:17:45 IST" name="beforeTest" finished-at="2025-04-06T14:17:45 IST" duration-ms="680" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.Shoppersstack_TestScripts.TC_001_verify_user_is_able_to_add_address_or_not_Test@1190200a]" started-at="2025-04-10T09:39:14 IST" name="beforeTest" finished-at="2025-04-10T09:39:14 IST" duration-ms="442" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.Shoppersstack_TestScripts.TC_001_verify_user_is_able_to_add_address_or_not_Test@1190200a]" started-at="2025-04-06T14:17:45 IST" name="beforeClass" finished-at="2025-04-06T14:18:13 IST" duration-ms="28193" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.Shoppersstack_TestScripts.TC_001_verify_user_is_able_to_add_address_or_not_Test@1190200a]" started-at="2025-04-10T09:39:14 IST" name="beforeClass" finished-at="2025-04-10T09:39:20 IST" duration-ms="5391" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.Shoppersstack_TestScripts.TC_001_verify_user_is_able_to_add_address_or_not_Test@1190200a]" started-at="2025-04-06T14:18:13 IST" name="beforeMethod" finished-at="2025-04-06T14:18:52 IST" duration-ms="38250" status="FAIL">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.Shoppersstack_TestScripts.TC_001_verify_user_is_able_to_add_address_or_not_Test@1190200a]" started-at="2025-04-10T09:39:20 IST" name="beforeMethod" finished-at="2025-04-10T09:40:00 IST" duration-ms="40177" status="FAIL">
           <exception class="org.openqa.selenium.TimeoutException">
             <message>
-              <![CDATA[Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.id: loginBtn' (tried for 20 second(s) with 500 milliseconds interval)]]>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.id: loginBtn' (tried for 14 second(s) with 500 milliseconds interval)]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.id: loginBtn' (tried for 20 second(s) with 500 milliseconds interval)
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.id: loginBtn' (tried for 14 second(s) with 500 milliseconds interval)
 at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
 at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
 at com.Shopperstack_GenericUtility.Base_Test.beforeMethod(Base_Test.java:103)
@@ -60,14 +60,14 @@ at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#loginBtn"}
-  (Session info: chrome=134.0.6998.179)
+  (Session info: chrome=135.0.7049.43)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.30.0', revision: '509c7f17cc*'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [10d39db8c9ffde28f00669e38e8fe1e7, findElement {value=loginBtn, using=id}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.179, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61906}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61906/devtoo..., se:cdpVersion: 134.0.6998.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 10d39db8c9ffde28f00669e38e8fe1e7
+Command: [70ec9a431f9b6229a01d2b4455ecf43f, findElement {value=loginBtn, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.43, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57412}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57412/devtoo..., se:cdpVersion: 135.0.7049.43, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 70ec9a431f9b6229a01d2b4455ecf43f
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
@@ -98,13 +98,13 @@ at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="addAddress()[pri:0, instance:com.Shoppersstack_TestScripts.TC_001_verify_user_is_able_to_add_address_or_not_Test@1190200a]" started-at="2025-04-06T14:18:52 IST" name="addAddress" finished-at="2025-04-06T14:18:52 IST" duration-ms="0" status="SKIP">
+        <test-method signature="addAddress()[pri:0, instance:com.Shoppersstack_TestScripts.TC_001_verify_user_is_able_to_add_address_or_not_Test@1190200a]" started-at="2025-04-10T09:40:00 IST" name="addAddress" finished-at="2025-04-10T09:40:00 IST" duration-ms="0" status="SKIP">
           <exception class="org.openqa.selenium.TimeoutException">
             <message>
-              <![CDATA[Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.id: loginBtn' (tried for 20 second(s) with 500 milliseconds interval)]]>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.id: loginBtn' (tried for 14 second(s) with 500 milliseconds interval)]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.id: loginBtn' (tried for 20 second(s) with 500 milliseconds interval)
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.id: loginBtn' (tried for 14 second(s) with 500 milliseconds interval)
 at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
 at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
 at com.Shopperstack_GenericUtility.Base_Test.beforeMethod(Base_Test.java:103)
@@ -139,14 +139,14 @@ at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#loginBtn"}
-  (Session info: chrome=134.0.6998.179)
+  (Session info: chrome=135.0.7049.43)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.30.0', revision: '509c7f17cc*'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [10d39db8c9ffde28f00669e38e8fe1e7, findElement {value=loginBtn, using=id}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.179, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61906}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61906/devtoo..., se:cdpVersion: 134.0.6998.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 10d39db8c9ffde28f00669e38e8fe1e7
+Command: [70ec9a431f9b6229a01d2b4455ecf43f, findElement {value=loginBtn, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.43, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57412}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57412/devtoo..., se:cdpVersion: 135.0.7049.43, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 70ec9a431f9b6229a01d2b4455ecf43f
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
@@ -177,15 +177,15 @@ at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addAddress -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.Shoppersstack_TestScripts.TC_001_verify_user_is_able_to_add_address_or_not_Test@1190200a]" started-at="2025-04-06T14:18:52 IST" name="afterMethod" finished-at="2025-04-06T14:18:52 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.Shoppersstack_TestScripts.TC_001_verify_user_is_able_to_add_address_or_not_Test@1190200a]" started-at="2025-04-10T09:40:00 IST" name="afterMethod" finished-at="2025-04-10T09:40:00 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.Shoppersstack_TestScripts.TC_001_verify_user_is_able_to_add_address_or_not_Test@1190200a]" started-at="2025-04-06T14:18:52 IST" name="afterClass" finished-at="2025-04-06T14:18:52 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.Shoppersstack_TestScripts.TC_001_verify_user_is_able_to_add_address_or_not_Test@1190200a]" started-at="2025-04-10T09:40:00 IST" name="afterClass" finished-at="2025-04-10T09:40:00 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.Shoppersstack_TestScripts.TC_001_verify_user_is_able_to_add_address_or_not_Test@1190200a]" started-at="2025-04-06T14:18:52 IST" name="afterTest" finished-at="2025-04-06T14:18:53 IST" duration-ms="803" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.Shoppersstack_TestScripts.TC_001_verify_user_is_able_to_add_address_or_not_Test@1190200a]" started-at="2025-04-10T09:40:00 IST" name="afterTest" finished-at="2025-04-10T09:40:01 IST" duration-ms="605" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->

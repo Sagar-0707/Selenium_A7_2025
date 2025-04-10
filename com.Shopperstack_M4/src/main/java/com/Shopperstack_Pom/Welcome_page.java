@@ -13,6 +13,17 @@ public class Welcome_page
 		
 		}
 	
+	
+	
+	
+//	@FindBy(xpath ="//button[@class='navbar_Loginbutton__O9-64']")
+//	private WebElement loginbtn;
+//
+//   public WebElement getLoginbtn() 
+//	{
+//		return loginbtn;
+//	}
+	
 	@FindBy(id="loginBtn")
 	private WebElement loginBtn;
 	
@@ -22,6 +33,9 @@ public class Welcome_page
 	{
 		return loginBtn;
 	}
+	
+	
+
 }
 
 
